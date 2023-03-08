@@ -183,4 +183,4 @@ If you are a seasoned programmer wanting to switch to Python then this is the qu
 If you are an intermediate Python programmer then you know 100 days of code challenges will help you level up.
 
 How to SSH from Microsoft Visual Studio Code
-ssh -i "file path of pem" (user)@public ip
+ssh -i "file path of pem" (user)@public ip address 
