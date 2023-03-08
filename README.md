@@ -1,2 +1,2 @@
-# Python101
+# 100 days of Python 
 Leaning Python 
