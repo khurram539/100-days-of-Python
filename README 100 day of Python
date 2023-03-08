@@ -181,3 +181,6 @@ If you want to start your own startup by building your own websites and web apps
 If you are a complete beginner then this course will be everything you need to become a Python professional
 If you are a seasoned programmer wanting to switch to Python then this is the quickest way. Learn through coding projects.
 If you are an intermediate Python programmer then you know 100 days of code challenges will help you level up.
+
+How to SSH from Microsoft Visual Studio Code
+ssh -i "file path of pem" (user)@public ip
