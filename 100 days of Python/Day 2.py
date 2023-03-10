@@ -27,7 +27,7 @@ print(first_digit)
 print(second_digit)
 
 result = first_digit + second_digit
-print(result)
+print(result
 
 
 
