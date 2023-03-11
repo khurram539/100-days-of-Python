@@ -79,6 +79,23 @@ if extra_cheese == "Y":
     bill += 1
 print(f"Your final bill is: ${bill}.")
 
+# coffee store
+print("Welcome to the Coffee Store!")
+size = input("What size coffee would you like? S, M, or L ")
+add_milk = input("Would you like milk? Y or N ")
+extra_sugar = input("Would you like extra sugar? Y or N ")
+if size == "S":
+    bill = 3
+if size == "M":
+    bill = 5
+if size == "L":
+    bill = 10
+if add_milk == "Y":
+    bill += 1
+if extra_sugar == "Y":
+    bill += 1
+print(f"Your final bill is: ${bill}.")
+
 # Love Calculator
 print ("Welcome to the Love Calculator!")
 name1 = input("What is your name? \n")
@@ -173,8 +190,6 @@ if choice3 == "blue":
     print("You enter a room of beasts. Game Over.")
 else:
     print("You chose a door that doesn't exist. Game Over.")
-
-
 
 
 
