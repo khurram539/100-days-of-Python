@@ -11,4 +11,6 @@ copy . .
 
 expose 8080
 
-cmd [ "node", "server" ]
+cmd [ "node", "server" }
+
+# Path: docker-compose.yml
