@@ -184,3 +184,4 @@ If you are an intermediate Python programmer then you know 100 days of code chal
 
 How to SSH from Microsoft Visual Studio Code
 ssh -i "file path of pem" (user)@public ip address 
+# path: README 100 day of Python
