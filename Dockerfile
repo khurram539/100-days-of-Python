@@ -1,3 +1,4 @@
+# Build: docker build -t node-web-app .
 from node:10
 
 workdir /usr/src/app
@@ -13,4 +14,4 @@ expose 8080
 
 cmd [ "node", "server" }
 
-# Path: docker-compose.yml
+# Path: Dockerfile
