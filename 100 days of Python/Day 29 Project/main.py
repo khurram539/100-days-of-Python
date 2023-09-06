@@ -3,6 +3,8 @@ from tkinter import *
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
+
+
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 
 def save():
@@ -14,11 +16,6 @@ def save():
         data.write(f"{website} | {email} | {password}\n")
         website_entry.delete(0, END)
         password_entry.delete(0, END)
-
-
-
-
-
 
 # ---------------------------- UI SETUP ------------------------------- #
 
@@ -49,7 +46,7 @@ website_entry.grid(row=1, column=1, columnspan=2)
 website_entry.focus()
 email_entry = Entry(width=35)
 email_entry.grid(row=2, column=1, columnspan=2)
-email_entry.insert(0, "Name@gmail.com")  
+email_entry.insert(0, "Username@gmail.com")  
 password_entry = Entry(width=21)
 password_entry.grid(row=3, column=1)
 
@@ -63,6 +60,5 @@ add_button.grid(row=4, column=1, columnspan=2)
 
 
 
-
-
+#-----------------------------END ----------------------------#
 window.mainloop()
