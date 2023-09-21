@@ -13,6 +13,7 @@ weather_params = {
     "lat": 38.840389,
     "lon": -77.428879,
     "appid": api_key,
+    "exclude": "current,minutely,daily"
     
 }
 
@@ -24,13 +25,18 @@ weather_slice = weather_data["hourly"][:12]
 
 will_rain = False
 
+for hour_data in weather_slice:
+    condition_code = hour_data["weather"][0]["id"]
+    if int(condition_code) < 700:
+        will_rain = True
 
-for hours_data in weather_slice:
-   condition_code = hours_data["weather"][0]["id"]
-   if int(condition_code) < 700:
-       will_rain = True
 if will_rain:
     print("Bring an umbrella")
+
+
+
+
        
        
 # print(weather_data["hourly"][0]["weather"][0]["id"])
+
