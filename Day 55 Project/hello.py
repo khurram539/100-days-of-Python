@@ -10,7 +10,7 @@ def hello_world():
 
 @app.route('/bye')
 def bye():
-    return "Bye!"
+    return "<b>Bye!</b>"
 
 # Creating variable path and converting the path to a specific data type
 @app.route("/username/<name>/<int:number>")
