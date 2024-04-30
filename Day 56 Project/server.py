@@ -13,3 +13,4 @@ if __name__ == "__main__":
 
 # export FLASK_APP=server.py
 # flask run 
+# or python server.py
