@@ -34,7 +34,12 @@ class CafeForm(FlaskForm):
 # make all fields required except submit
 # use a validator to check that the URL field has a URL entered.
 # ---------------------------------------------------------------------------
-
+# Exercise:
+# Add a new route to handle the form submission
+# When the form is submitted, write the form data to cafe-data.csv
+# You can use the `csv` module to write the data to the file.   
+# Make sure you don't overwrite the existing data in the file!
+# ---------------------------------------------------------------------------
 
 # all Flask routes below
 @app.route("/")
